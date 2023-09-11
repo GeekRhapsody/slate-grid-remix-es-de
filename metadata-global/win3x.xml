@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemDescription>Windows 3.0 is the third major release of Microsoft Windows, launched in 1990. It features a new graphical user interface (GUI) where applications are represented as clickable icons, as opposed to the list of file names seen in its predecessors. Later updates would expand the software's capabilities, one of which added multimedia support for sound recording and playback, as well as support for CD-ROMs.
+
+Windows 3.0 is the first version of Windows to perform well both critically and commercially. Critics and users considered its GUI to be a challenger to those of Apple Macintosh and Unix. Other praised features were the improved multitasking, customizability, and especially the utilitarian management of computer memory that troubled the users of Windows 3.0's predecessors. Microsoft was criticized by third-party developers for the bundling of its separate software with the operating environment, which they viewed as an anticompetitive practice. Windows 3.0 sold 10 million copies before it was succeeded by Windows 3.1 in 1992.</systemDescription>
+      <systemManufacturer>Microsoft</systemManufacturer>
+      <systemReleaseYear>1990</systemReleaseYear>
+      <systemReleaseDate>1990-05-22</systemReleaseDate>
+      <systemReleaseDateFormated>May 22, 1990</systemReleaseDateFormated>
+      <systemHardwareType>OS</systemHardwareType>
+      <systemColor>2d62c1</systemColor>
+      <systemColorPalette1>FDC20F</systemColorPalette1>
+      <systemColorPalette2>8461A9</systemColorPalette2>
+      <systemColorPalette3>CA1A15</systemColorPalette3>
+      <systemColorPalette4>111111</systemColorPalette4>
+   </variables>
+</theme>

@@ -1,0 +1,31 @@
+<theme>
+    <view name="system">
+        <text name="info1">
+            <text>Windows 3.1 is a major release of Microsoft Windows.</text>
+        </text>
+        <text name="info2">
+            <text>It was released to manufacturing on April 6, 1992,</text>
+        </text>
+        <text name="info3">
+            <text>as a successor to Windows 3.0. </text>
+        </text>
+		<text name="info4">
+            <text>The Windows 3.1 series ran as a shell on top of MS-DOS.</text>
+        </text>
+        <text name="info5">
+            <text>Windows 3.1 sold over three million copies during the first</text>
+        </text>
+        <text name="info6">
+            <text>three months of its release</text>
+        </text>
+        <text name="info7">
+            <text>It was succeeded by Windows NT 3.1 and Windows 95,</text>
+        </text>
+        <text name="info8">
+            <text>and Microsoft ended the support for Windows 3.1 series on 2001-12-31,</text>
+        </text>
+        <text name="info9">
+            <text>except for the embedded version, which was retired in 2008.</text>
+        </text>
+    </view>
+</theme>

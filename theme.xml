@@ -1,0 +1,129 @@
+<!--
+    Theme engine examples for EmulationStation Desktop Edition (theme-engine-examples-es-de)
+    License: Creative Commons CC-BY-NC-SA
+-->
+
+<theme>	
+
+    <include>./navigationsounds.xml</include>
+	<include>./metadata-global/${system.theme}.xml</include>
+    <include>./colors.xml</include>
+
+    <!-- Per-system band colors -->
+    <include>./systems/${system.theme}/colors.xml</include>
+
+    <variables>
+        <systemConsoleImage>./systems/${system.theme}/images/consolegame.svg</systemConsoleImage>
+        <systemControllerImage>./systems/${system.theme}/images/controller.svg</systemControllerImage>
+        <systemLogo>./systems/${system.theme}/images/logo.svg</systemLogo>
+    </variables>
+
+    <variables>
+	    <screenshotHeight>0.165</screenshotHeight>
+		<screenshotWidth>0.120</screenshotWidth>
+        <coverHeight>0.195</coverHeight>
+		<coverWidth>0.082</coverWidth>
+    </variables>
+
+	<view name="system">
+        <grid name="systemGrid">
+            <pos>0.46 0.2</pos>
+            <size>0.70 0.715</size>
+            <origin>0.62 0</origin>
+            <staticImage>./systems/${system.theme}/images/logo.svg</staticImage>
+            <itemSize>0.118 0.09</itemSize>
+            <itemScale>1.1</itemScale>
+            <itemSpacing>0.010 0.022</itemSpacing>
+            <fractionalRows>true</fractionalRows>
+            <itemTransitions>animate</itemTransitions>
+            <rowTransitions>animate</rowTransitions>
+            <unfocusedItemOpacity>1.0</unfocusedItemOpacity>
+            <imageRelativeScale>0.9</imageRelativeScale>
+            <imageFit>contain</imageFit>
+            <backgroundImage>./core/images/grid_frame.svg</backgroundImage>
+            <backgroundRelativeScale>1.0</backgroundRelativeScale>
+            <backgroundColor>424242</backgroundColor>
+            <selectorImage>./core/images/grid_frame.svg</selectorImage>
+            <selectorRelativeScale>1.0</selectorRelativeScale>
+            <selectorLayer>middle</selectorLayer>
+            <selectorColor>FF3333</selectorColor>
+            <textRelativeScale>0.8</textRelativeScale>
+            <textColor>F0F0F0</textColor>
+            <fontPath>./core/fonts/Exo2-RegularCondensed.otf</fontPath>
+            <fontSize>0.032</fontSize>
+            <letterCase>uppercase</letterCase>
+            <lineSpacing>1.2</lineSpacing>
+            <fadeAbovePrimary>true</fadeAbovePrimary>
+        </grid>
+        <image name="controller">
+            <pos>0.78 0.17</pos>
+            <maxSize>0.1 0.15</maxSize>
+            <origin>1 1</origin>
+            <path>${systemControllerImage}</path>
+        </image>
+        <image name="backframe2">
+            <pos>0.5 0.19</pos>
+            <size>0.96 0.735</size>
+            <origin>0.5 0</origin>
+            <path>./core/images/frame.png</path>
+            <color>181818</color>
+            <zIndex>10</zIndex>
+        </image>
+        <text name="gameCounter">
+            <pos>0.8 0.145</pos>
+            <size>0.117 0.056</size>
+            <origin>0 0.5</origin>
+            <systemdata>gamecountGames</systemdata>
+            <fontPath>./core/fonts/Exo2-RegularCondensed.otf</fontPath>
+            <fontSize>0.035</fontSize>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>DDDDDD</color>
+            <backgroundColor>262626DD</backgroundColor>
+            <letterCase>uppercase</letterCase>
+            <zIndex>50</zIndex>
+        </text>
+        <text name="systemDescription">
+            <size>0.289 0.680</size>
+			<text>${systemDescription}</text>
+            <fontPath>./core/fonts/Exo2-SemiBoldCondensed.otf</fontPath>
+            <fontSize>0.019</fontSize>
+            <horizontalAlignment>left</horizontalAlignment>
+            <container>true</container>
+            <containerVerticalSnap>true</containerVerticalSnap>
+            <containerScrollSpeed>1</containerScrollSpeed>
+            <containerStartDelay>4.5</containerStartDelay>
+            <containerResetDelay>7</containerResetDelay>			
+            <color>DDDDDD</color>		
+            <pos>0.68 0.200</pos>		
+        </text>
+       <text name="systemReleaseYear">
+			<pos>0.8 0.075</pos>            
+            <size>0.117 0.056</size>
+            <origin>0 0.5</origin>
+			<text>${systemReleaseYear}</text>            
+            <fontPath>./core/fonts/Exo2-RegularCondensed.otf</fontPath>
+            <fontSize>0.035</fontSize>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>DDDDDD</color>
+            <backgroundColor>262626DD</backgroundColor>
+            <letterCase>uppercase</letterCase>
+            <zIndex>50</zIndex>
+        </text>		
+        <helpsystem name="help">
+            <pos>0.012 0.955</pos>
+            <textColor>${gamelistHelpColor}</textColor>
+            <iconColor>${gamelistHelpColor}</iconColor>
+            <textColorDimmed>${gamelistHelpColorDimmed}</textColorDimmed>
+            <iconColorDimmed>${gamelistHelpColorDimmed}</iconColorDimmed>
+        </helpsystem>
+    </view>
+
+
+    <variant name="screenshot_variant">
+        <include>./variant_screenshot.xml</include>
+    </variant>
+
+    <variant name="cover_variant">
+        <include>./variant_cover.xml</include>
+    </variant>
+</theme>
