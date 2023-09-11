@@ -170,15 +170,4 @@
             <iconColorDimmed>${gamelistHelpColorDimmed}</iconColorDimmed>
         </helpsystem>
     </view>
-
-    <aspectRatio name="4:3">
-        <view name="system, gamelist">
-            <grid name="gamelistGrid">
-                <itemSize>0.192 -1</itemSize>
-            </grid>
-            <helpsystem name="help">
-                <fontSize>0.034</fontSize>
-            </helpsystem>
-        </view>
-    </aspectRatio>
 </theme>
