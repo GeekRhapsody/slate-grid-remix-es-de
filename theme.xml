@@ -126,4 +126,8 @@
     <variant name="cover_variant">
         <include>./variant_cover.xml</include>
     </variant>
+	
+    <variant name="textlist_variant">
+        <include>./variant_textlist.xml</include>
+    </variant>	
 </theme>

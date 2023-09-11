@@ -81,4 +81,9 @@
         <label>Cover Grid</label>
         <selectable>true</selectable>
     </variant>
+	
+	<variant name="textlist_variant">
+        <label>Text List</label>
+        <selectable>true</selectable>
+    </variant>
 </themeCapabilities>
