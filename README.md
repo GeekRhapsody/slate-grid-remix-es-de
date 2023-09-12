@@ -1,2 +1,16 @@
-# Slate Grid Remix
-Slate Grid Remix Theme for ES-DE
+# Slate Grid Remix (slade-grid-remix-es-de)
+Slate Theme Enhanced to make use of the system grid in ES-DE 2.0
+![main](main.png)
+
+The following options are included:
+
+3 variants:
+
+- Screenshot Grid
+- Boxart Grid
+- List View
+
+2 aspect ratios:
+
+- 16:9
+- 16:10
