@@ -81,6 +81,11 @@
         <label>Cover Grid</label>
         <selectable>true</selectable>
     </variant>
+
+    <variant name="marquee_variant">
+        <label>Marquee Grid</label>
+        <selectable>true</selectable>
+    </variant>
 	
 	<variant name="textlist_variant">
         <label>Text List</label>
