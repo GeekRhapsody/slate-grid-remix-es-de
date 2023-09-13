@@ -1,0 +1,8 @@
+<theme>
+    <variables>
+	    <screenshotHeight>0.165</screenshotHeight>
+		<screenshotWidth>0.150</screenshotWidth>
+        <coverHeight>0.235</coverHeight>
+		<coverWidth>0.082</coverWidth>
+    </variables>
+</theme>
