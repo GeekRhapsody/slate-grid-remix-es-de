@@ -68,7 +68,7 @@
             <itemSize>${coverWidth} ${coverHeight}</itemSize>
             <itemScale>1.1</itemScale>
             <itemSpacing>0.010 0.015</itemSpacing>
-            <fractionalRows>false</fractionalRows>
+            <fractionalRows>true</fractionalRows>
             <itemTransitions>animate</itemTransitions>
             <rowTransitions>animate</rowTransitions>
             <unfocusedItemOpacity>1.0</unfocusedItemOpacity>
