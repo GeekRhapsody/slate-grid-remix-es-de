@@ -31,7 +31,7 @@
             <size>0.70 0.715</size>
             <origin>0.62 0</origin>
             <staticImage>./systems/${system.theme}/images/logo.svg</staticImage>
-            <itemSize>0.118 0.09</itemSize>
+            <itemSize>0.150 0.11</itemSize>
             <itemScale>1.1</itemScale>
             <itemSpacing>0.010 0.022</itemSpacing>
             <fractionalRows>true</fractionalRows>
