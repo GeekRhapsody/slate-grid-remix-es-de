@@ -31,9 +31,9 @@
             <size>0.70 0.715</size>
             <origin>0.62 0</origin>
             <staticImage>./systems/${system.theme}/images/logo.svg</staticImage>
-            <itemSize>0.150 0.11</itemSize>
+            <itemSize>0.150 0.108</itemSize>
             <itemScale>1.1</itemScale>
-            <itemSpacing>0.010 0.022</itemSpacing>
+            <itemSpacing>0.010 0.012</itemSpacing>
             <fractionalRows>true</fractionalRows>
             <itemTransitions>animate</itemTransitions>
             <rowTransitions>animate</rowTransitions>
