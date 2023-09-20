@@ -68,7 +68,7 @@
             <primaryColor>${gamelistTextlistPrimaryColor}</primaryColor>
             <secondaryColor>${gamelistTextlistSecondaryColor}</secondaryColor>
             <fontPath>./core/fonts/Exo2-BoldCondensed.otf</fontPath>
-            <fontSize>0.025</fontSize>
+            <fontSize>0.020</fontSize>
             <horizontalAlignment>left</horizontalAlignment>
             <horizontalMargin>0.01</horizontalMargin>
             <letterCase>uppercase</letterCase>
